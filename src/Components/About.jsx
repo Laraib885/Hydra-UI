@@ -6,7 +6,7 @@ import { MainBox,H1,H2,Para,Btn,Img } from "./Styled/About.style";
 const About = () =>{
     return(
         <MainBox>
-            <Box sx={{width:'100%'}}>
+            <Box sx={{display:'flex',textAlign:'center',justifyContent:'center'}}>
                 <Img component='img' src={require('../Components/Images/Mask group 2.png')}/>
             </Box>
             <Box sx={{width:'100%'}}>

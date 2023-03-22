@@ -14,7 +14,11 @@ export const MainBox = styled(Box)(({theme})=>({
 export const Img = styled(Box)(({theme})=>({
     width:'400px',
     [theme.breakpoints.down(700)]:{
-    width:'250px'     
+    width:'250px',
+    display:'flex',
+    flexDirection:'row',
+    alignItems:'center',
+    justifyContent:'space-around'
     }
 }))
 

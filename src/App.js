@@ -15,7 +15,7 @@ import Navbar from "./Components/Navbar";
 
 const App = () =>{
   return(
-    <Box margin={'40px'}>
+    <Box>
       <Navbar/>
       <Header/>
       <Contact/>
